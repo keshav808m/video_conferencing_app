@@ -1,8 +1,9 @@
 import axios from "axios";
 import { createContext, useContext } from "react";
+import server from "../../environment";
 
 const client = axios.create({
-    baseURL: "http://localhost:8080/api/v1/history"
+    baseURL: `${server}/api/v1/history`
 })
 
 export const HistoryContext = createContext({});
