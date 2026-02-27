@@ -8,8 +8,8 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "../styles/videoMeeting.module.css";
 import IconButton from "@mui/material/IconButton";
-import VideocamIcon from "@mui/icons-material/videocam";
-import VideocamOffIcon from "@mui/icons-material/videocamOff";
+import VideocamIcon from "@mui/icons-material/Videocam";
+import VideocamOffIcon from "@mui/icons-material/VideocamOff";
 import CallEndIcon from '@mui/icons-material/CallEnd';
 import MicIcon from '@mui/icons-material/Mic';
 import MicOffIcon from '@mui/icons-material/MicOff';
