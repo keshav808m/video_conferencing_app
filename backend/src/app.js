@@ -7,6 +7,9 @@ import { connectToSocket } from "./controllers/socketManager.controller.js";
 import userRoutes from "./routes/users.routes.js"
 import historyRoute from "./routes/history.routes.js";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 
 
 const app = express();
@@ -26,7 +29,7 @@ const start = async () => {
     server.listen(app.get("port"), () => {
         console.log("Listening on port 8080");
     })
-    const connectionDB = await mongoose.connect(process.env.DB_URL)
+    const connectionDB = await mongoose.connect(process.env.ATLASDB_URL)
     .then(()=>{
         console.log("Connected to DB");
     })
