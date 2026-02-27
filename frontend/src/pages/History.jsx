@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import { HistoryContext } from "../context/HistoryContext"
 import { useNavigate } from "react-router-dom";
 import IconButton from "@mui/material/IconButton";
-import HomeIcon from "@mui/icons-material/home";
+import HomeIcon from "@mui/icons-material/Home";
 
 
 import Card from '@mui/material/Card';
