@@ -139,7 +139,8 @@ html, body {
 @media (max-width: 768px) {
 
     .meetVideoContainer {
-        min-height: 100vh;
+        height: 100vh;
+        height: 100dvh;
         padding-bottom: 5rem;
     }
 
