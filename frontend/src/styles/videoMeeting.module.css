@@ -141,24 +141,29 @@ html, body {
     .meetVideoContainer {
         height: 100vh;
         height: 100dvh;
-        padding-bottom: 5rem;
+        padding-bottom: 80px;
     }
 
     /* User self video */
     .meetUserVideo {
         position: fixed;
-        bottom: 12vh;
+        bottom: 90px;
         left: 0;
         height: 20vh;
         border-radius: 15px;
+			  z-index: 20;
     }
 
     /* Buttons */
     .buttonContainers {
-        width: 100%;
-        padding: 10px 0;
-        background-color: rgba(0, 0, 0, 0.3);
-    }
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 50;
+		}
 
     .buttonContainers svg {
         font-size: 2.5rem;
